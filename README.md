@@ -96,3 +96,20 @@ All the answers should be written in proper English.
       }
       return substituteVal(val, 0, 10)
     }
+
+  **5) Describe the difference between the two tests below. Which one is better and WHY?**
+
+      // 1
+      it('should send the profile data to the server and update the profile view properly', function() {
+        expect(...)to(...);
+        expect(...)to(...);
+      });
+
+      // 2
+      it('should send the profile data to the server', function() {
+        expect(...)to(...);
+      });
+
+      it('should update the profile view properly', function() {
+        expect(...)to(...);
+      });
