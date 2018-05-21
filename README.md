@@ -15,6 +15,7 @@ All the answers should be written in proper English.
   - Integration
   - Unit
 
+      ```js
         var request = require('supertest');
         var app = require('../server');
 
@@ -49,9 +50,11 @@ All the answers should be written in proper English.
             });
           });
         });
+      ```
 
 **4) Below are 2 snippets of code which achieve the same functionality. Which snippet of code is better testable and WHY?**
 
+  ```js
     // 1
     function valIncrementer(val, disabled) {
       var nextVal = val + 1;
@@ -96,9 +99,11 @@ All the answers should be written in proper English.
       }
       return substituteVal(val, 0, 10)
     }
+  ```
 
-  **5) Describe the difference between the two tests below. Which one is better and WHY?**
+  **5) Describe the difference between the two tests below. Which one is ideal and WHY?**
 
+  ```js
       // 1
       it('should send the profile data to the server and update the profile view properly', function() {
         expect(...)to(...);
@@ -113,3 +118,4 @@ All the answers should be written in proper English.
       it('should update the profile view properly', function() {
         expect(...)to(...);
       });
+  ```
