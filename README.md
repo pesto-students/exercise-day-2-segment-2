@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://pesto.tech/">
+    <img alt="PESTO" src="https://www.pesto.tech/assets/pestoblack.svg" width="500">
+  </a>
+</p>
+
 # Questions:
 
 ## Instructions:
