@@ -1,5 +1,5 @@
 /**
- * Pass the test below and then complete 100% coverage 
+ * Pass the test below and then complete 100% coverage
  */
 
 import Stack from '../src/stack';
@@ -19,5 +19,4 @@ describe('stack test', () => {
 
     expect(actual).toEqual(expected);
   });
-
 });

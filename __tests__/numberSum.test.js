@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import numberSum from '../src/numberSum';
 
 describe('numberSum test', () => {
