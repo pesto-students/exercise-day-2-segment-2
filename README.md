@@ -125,3 +125,16 @@ All the answers should be written in proper English.
         expect(...)to(...);
       });
   ```
+
+
+### ANSWERS:
+
+1) We write test to find bugs, make our code more readable
+
+2) We should aim for as much code coverage as possible (100%).
+
+3) Integration Test, we are trying to integrate a API into our project.
+
+1) Second snippet is better testable. In 1st snippets the code is highly coupled which would make it very difficult to test.
+
+5) Second one is more decoupled and more cohesive and hence a better solution.
