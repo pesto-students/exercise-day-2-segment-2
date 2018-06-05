@@ -12,14 +12,21 @@ All the answers should be written in proper English.
 ---
 
 **1) Why should we write tests?**
+ans - 1. bugs can be cotly
+      2. tests leads to enhancews workflow
+      3. confidence
 
 **2) How much code coverage is required? Comment.**
+
+
 
 **3) What kind of test is this? Explain your choice of answer.**
   #### Options:
   - End to end (E2E)
   - Integration
   - Unit
+
+  It is an End to End testing.
 
       ```js
         var request = require('supertest');
