@@ -125,3 +125,16 @@ All the answers should be written in proper English.
         expect(...)to(...);
       });
   ```
+
+
+Answers
+
+Q1) We should write tests in order to break the code with the intention of finding bugs. We write tests to find the bugs that may cause problems, if not fixed before deplying the product.
+
+Q2) 100% code coverage is ideal. This ensures that each line of code is tested at least once.
+
+Q3) This is an example of Integration test because it requires access to other functionality and we are sending get requests. This is not E2E test because we are testing it from developers prospective.
+
+Q4) Option 1 is better testable because it has loose coupling.
+
+Q5) Option 2 is better beacuse it is more discrete and test two different tasks independently.
