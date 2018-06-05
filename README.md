@@ -125,3 +125,8 @@ All the answers should be written in proper English.
         expect(...)to(...);
       });
   ```
+
+
+### ANSWERS:
+
+1) We right test to find bugs.
