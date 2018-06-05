@@ -3,7 +3,7 @@ import getName from '../src/getName';
 describe('throwError test', () => {
   test('should return string with given name', () => {
     const actual = getName('Martin Garrix');
-    const expected = /Ramu/;
+    const expected = 'You entered: Martin Garrix';
     expect(actual).toMatch(expected);
   });
 

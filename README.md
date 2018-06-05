@@ -125,3 +125,34 @@ All the answers should be written in proper English.
         expect(...)to(...);
       });
   ```
+
+
+Answers:
+
+
+Q1:
+Tests are written to minimize the probability of occurrence of bugs/errors in later stages of production. As we have seen, if bugs are encountered in the later stages of development, then they can produce damages that are worth millions of dollars.
+
+Thus, to prevent those damages, we write tests to rectify the bugs in the earlier stages of development, as prevention is always better than cure :)
+
+
+Q2:
+The amount of code coverage that can address all the cases (including the edge cases) for a particular component (for example, a functional component) is satisfiable in most of the cases.
+
+
+Q3:
+It's a case of end-to-end testing as the overall flow from the user behaviour is tested while carrying out the testing.
+
+
+Q4:
+Case 2 is better as compared to Case 1, as it provides a more abstract view of the solution (substituteVal() is used in place of clipToUpperLimit() and clipToLowerLimit(). This type of programming practice also helps in carrying out the testing process more effectively.
+
+
+Q5:
+Test 1 serves the purpose of carrying out 2 testing statements in a single test. As both the functionalities, i.e. sending profile data to the server and updating the profile view are relatable thus, tests for both can be implemented in a single component.
+
+In Test 2, the testing is segragated to serve the 2 purposes individually.
+
+Test 1 is more better in this case as compared to Test 2, as both the functionalities are relatable to each other.
+
+
