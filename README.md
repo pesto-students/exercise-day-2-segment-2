@@ -12,12 +12,13 @@ All the answers should be written in proper English.
 ---
 
 **1) Why should we write tests?**
-ans - 1. bugs can be cotly
-      2. tests leads to enhancews workflow
-      3. confidence
+ans - 1. bugs can be costly(we have to learn something from NASA) so Financial benefits.
+      2. tests leads to enhanced workflow.
+      3. it gives confidence to developer.
+      4. it makes product better. 
 
 **2) How much code coverage is required? Comment.**
-
+Ans- code coverage should test all branches, statements, conditions of the code.
 
 
 **3) What kind of test is this? Explain your choice of answer.**
@@ -26,7 +27,7 @@ ans - 1. bugs can be cotly
   - Integration
   - Unit
 
-  It is an End to End testing.
+  Ans- It is an End to End testing.
 
       ```js
         var request = require('supertest');
