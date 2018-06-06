@@ -3,8 +3,8 @@ import getName from '../src/getName';
 describe('throwError test', () => {
   test('should return string with given name', () => {
     const actual = getName('Martin Garrix');
-    const expected = /Ramu/;
-    expect(actual).toThrow(expected);
+    const expected = 'Martin Garrix';
+    expect(actual).toBe(expected);
   });
 
   test('should throw error if argument is not a string', () => {
