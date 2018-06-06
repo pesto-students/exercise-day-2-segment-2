@@ -4,7 +4,7 @@ describe('throwError test', () => {
   test('should return string with given name', () => {
     const actual = getName('Martin Garrix');
     const expected = /Ramu/;
-    expect(actual).toMatch(expected);
+    expect(actual).toThrow(expected);
   });
 
   test('should throw error if argument is not a string', () => {

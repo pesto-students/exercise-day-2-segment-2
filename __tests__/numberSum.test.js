@@ -6,6 +6,6 @@ describe('numberSum test', () => {
     const actual = numberSum(2, 3);
     const expected = 5;
 
-    expects(actual).toEqual(expected);
+    expect(actual).toEqual(expected);
   });
 });
