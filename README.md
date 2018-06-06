@@ -12,8 +12,10 @@ All the answers should be written in proper English.
 ---
 
 **1) Why should we write tests?**
+Writing a test gives us an idea of what we want our code to do. Once we get to know what we want to we can work towards implementing the code at an accelerated pace. 
 
 **2) How much code coverage is required? Comment.**
+Code coverage should be 100%. This results in making sure that each and every functionality is completely tested
 
 **3) What kind of test is this? Explain your choice of answer.**
   #### Options:
@@ -57,6 +59,8 @@ All the answers should be written in proper English.
           });
         });
       ```
+The above code is for Integration testing as it is making a network request and checking we are getting a valid return from the functions
+
 
 **4) Below are 2 snippets of code which achieve the same functionality. Which snippet of code is better testable and WHY?**
 
@@ -106,6 +110,7 @@ All the answers should be written in proper English.
       return substituteVal(val, 0, 10)
     }
   ```
+The second implementation is better as it is losely coupled.
 
   **5) Describe the difference between the two tests below. Which one is ideal and WHY?**
 
@@ -125,3 +130,4 @@ All the answers should be written in proper English.
         expect(...)to(...);
       });
   ```
+In first implementation the code is testing two tests in a single suite. In second imlementation we are testing two cases in  two different suits.
