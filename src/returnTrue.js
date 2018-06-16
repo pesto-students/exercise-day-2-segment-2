@@ -1,3 +1,3 @@
-const returnTrue = (true);
+const returnTrue = () => true;
 
 module.exports = returnTrue;
