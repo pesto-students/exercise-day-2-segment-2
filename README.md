@@ -12,8 +12,11 @@ All the answers should be written in proper English.
 ---
 
 **1) Why should we write tests?**
+- To be sure that our code works as specified
+- To be able to know *easily* that our new changes don't break existing functionality
 
 **2) How much code coverage is required? Comment.**
+- As close to 100% coverage as possible, without wasting time writing tests for trivial code
 
 **3) What kind of test is this? Explain your choice of answer.**
   #### Options:
@@ -57,6 +60,10 @@ All the answers should be written in proper English.
           });
         });
       ```
+
+- This is an integration test
+- Not a unit test since we are making a network call
+- Not an E2E test since no part of the UI is tested
 
 **4) Below are 2 snippets of code which achieve the same functionality. Which snippet of code is better testable and WHY?**
 
@@ -106,6 +113,7 @@ All the answers should be written in proper English.
       return substituteVal(val, 0, 10)
     }
   ```
+- Set 2 contains functions (incrementedVal, substituteVal, shouldIncrement) that don't depend on or call each other. They can be independently tested.
 
   **5) Describe the difference between the two tests below. Which one is ideal and WHY?**
 
@@ -125,3 +133,6 @@ All the answers should be written in proper English.
         expect(...)to(...);
       });
   ```
+- Second set is better
+- In the second set, each of the tests is testing *one* thing. When a test fails, we have
+    to go through fewer lines of code to figure out what went wrong
