@@ -12,14 +12,14 @@ All the answers should be written in proper English.
 ---
 
 **1) Why should we write tests?**
-
+#Tests provides better error handling, checking the correct functionality and completes the project to be handover to the end user.
 **2) How much code coverage is required? Comment.**
-
+#It varies from project-to-project like some projects are small that doesn't need intentional testing, some are large where we have to provide a window that will test the extemities within the project, in some cases the project may itself contain blocks of code that doesn't require any testing. So, overall code coverage should vary and will be determined after examining the whole code.
 **3) What kind of test is this? Explain your choice of answer.**
   #### Options:
-  - End to end (E2E)
-  - Integration
-  - Unit
+  [x] End to end (E2E)
+  [Yes] Integration
+  [Yes] Unit
 
       ```js
         var request = require('supertest');
@@ -106,6 +106,7 @@ All the answers should be written in proper English.
       return substituteVal(val, 0, 10)
     }
   ```
+# 2nd is better because it has lesser dependecies and unit testing will be easier to implement.
 
   **5) Describe the difference between the two tests below. Which one is ideal and WHY?**
 
@@ -125,3 +126,4 @@ All the answers should be written in proper English.
         expect(...)to(...);
       });
   ```
+# 1's is correct(acc. to me) because profile view can only be update only when profile data is sent to there is a dependency between the two operations. 
