@@ -12,9 +12,10 @@ All the answers should be written in proper English.
 ---
 
 **1) Why should we write tests?**
+A: Tests ensure that the desired functionalities are implemented correctly and also check that failsafe/edge cases are taken care of as well. 
 
 **2) How much code coverage is required? Comment.**
-
+A: Code coverage depends on a lot of factors including budget,scale,timing,codebase,frequency of changes being made etc. Hence it's a collaborative decision of people involved in it. There cannot be a thumb rule as situations may vary indefinetly.However if a codebase provides very important services and is less frequently changed, 80-85% code coverage should be there. 
 **3) What kind of test is this? Explain your choice of answer.**
   #### Options:
   - End to end (E2E)
@@ -57,6 +58,8 @@ All the answers should be written in proper English.
           });
         });
       ```
+
+A: Test above is an integration test as it involves more than one modules to interact and provide data to be tested.
 
 **4) Below are 2 snippets of code which achieve the same functionality. Which snippet of code is better testable and WHY?**
 
@@ -106,6 +109,7 @@ All the answers should be written in proper English.
       return substituteVal(val, 0, 10)
     }
   ```
+A: Second way is better as it has better unit testing as opposed to first part where testing the modules will get relatively complicated.
 
   **5) Describe the difference between the two tests below. Which one is ideal and WHY?**
 
@@ -125,3 +129,4 @@ All the answers should be written in proper English.
         expect(...)to(...);
       });
   ```
+A: The difference between the two tests is that first one is testing two functionalilty in a single test case, while second part is using separate test cases to test the two different functionalities. Ideally, it's better to test different functionality separetly.
